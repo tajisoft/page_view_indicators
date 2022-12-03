@@ -108,8 +108,6 @@ class CirclePageIndicatorState extends State<CirclePageIndicator> {
                 ? null
                 : widget.onPageSelected!(index),
             child: Container(
-              color: Colors.orange,
-              height: 50,
               width: size + widget.dotSpacing,
               child: Material(
                 color: widget.borderWidth > 0 ? borderColor : color,
